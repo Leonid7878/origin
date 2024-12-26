@@ -1,10 +1,14 @@
+#include "sdt.h"
 #include <iostream>
-using namespace std;
 
+// Эта программа является учебной
 int main() {
-    int a, b;
-    cout << "Введите два числа: ";
-    cin >> a >> b;
-    cout << "Сумма: " << a + b << endl;
+    int num1, num2;
+    std::cout << "Введите два числа: ";
+    std::cin >> num1 >> num2;
+
+    // Печать разности чисел
+    std::cout << "Разность чисел: " << num1 - num2 << std::endl;
+
     return 0;
 }
